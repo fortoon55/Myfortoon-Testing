@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Premium HTML5 Template by Indonez">
+    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, vanilla javascript">
+    <meta name="author" content="Indonez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#313131" />
+    <!-- Site Properties -->
+    <title>Sign out - Chain-Mining In</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/vendors/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- preloader begin -->
+    <div class="in-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+     
+     <!-- TradingView Widget BEGIN -->
+     <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Supported Coins</span></a> by Chain-Maining Inc</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>{
+              "symbols": [
+                {
+                  "proName": "BITSTAMP:BTCUSD",
+                  "title": "Bitcoin"
+                },
+                {
+                  "proName": "BITSTAMP:ETHUSD",
+                  "title": "Ethereum"
+                },
+                {
+                  "description": "Cardano",
+                  "proName": "COINBASE:ADAUSD"
+                },
+                {
+                  "description": "Binance",
+                  "proName": "BINANCE:BNBBUSD"
+                },
+                {
+                  "description": "Litecoin",
+                  "proName": "COINBASE:LTCUSD"
+                },
+                {
+                  "description": "Doge",
+                  "proName": "COINBASE:DOGEUSD"
+                },
+                {
+                  "description": "Stellar",
+                  "proName": "COINBASE:XLMUSD"
+                },
+                {
+                  "description": "Dash",
+                  "proName": "COINBASE:DASHUSD"
+                }
+              ],
+              "showSymbolLogo": true,
+              "colorTheme": "dark",
+              "isTransparent": true,
+              "displayMode": "compact",
+              "locale": "en"
+            }</script>
+    </div>
+    <!-- TradingView Widget END -->
+
+
+    <!-- preloader end -->
+    <main>
+        <!-- section content begin -->
+        <div class="uk-section uk-padding-remove-vertical">
+            <div class="uk-container uk-container-expand">
+                <div class="uk-grid" data-uk-height-viewport="expand: true">
+                    <div class="uk-width-3-5@m uk-background-cover uk-background-center-right uk-visible@m uk-box-shadow-xlarge" style="background-image: url(img/in-signin-image.jpg);">
+                    </div>
+                    <div class="uk-width-expand@m uk-flex uk-flex-middle">
+                        <div class="uk-grid uk-flex-center">
+                            <div class="uk-width-3-5@m">
+                                <div class="in-padding-horizontal@s">
+                                    <!-- module logo begin -->
+                                    <a class="uk-logo" href="index.html">
+                                        <img class="uk-margin-small-right in-offset-top-10" src="img/in-lazy.gif" data-src="img/in-logo-1.svg" alt="wave" width="134" height="23" data-uk-img>
+                                    </a>
+                                    <!-- module logo begin -->
+                                    <p class="uk-text-lead uk-margin-top uk-margin-remove-bottom"> Don't have an account?</p>
+                                    <p class="uk-text-small uk-margin-remove-top uk-margin-medium-bottom">Log into your account <a href="signin.html">sign in</a></p>
+                                    <!-- login form begin -->
+                                    <form action="/Account/SignUpUser" method="post">    <div class="vh-100 d-flex justify-content-center pb-5 mb-5">
+                                        <div class="form-access my-auto">
+                                            <div style="border:grey; border-width:1px; border-style:solid; padding:40px;">
+                                                <br />
+                                                <br />
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p style="padding-top:14px; text-align:left;">Continue with Google →</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <div id="g_id_onload"
+                                                             data-client_id="143342287539-rc2mp9vuie3lhgpmfu0avlfodljiovs7.apps.googleusercontent.com"
+                                                             data-auto_select="false"
+                                                             data-callback="getGoogleAccountInfo"
+                                                             data-auto_prompt="false">
+                                                        </div>
+                                                        <div class="g_id_signin"
+                                                             data-type="icon"
+                                                             data-size="large"
+                                                             data-width="200"
+                                                             data-theme="filled_blue"
+                                                             data-text="signin"
+                                                             data-shape="rectangular"
+                                                             data-logo_alignment="left"
+                                                             style="font-size:11px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <span>Sign Up</span>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="Firstname" placeholder="First name" required />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="Othername" placeholder="Other name" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="Lastname" placeholder="Last name" required />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="Email" placeholder="Email" required />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" name="Password" placeholder="Password" required />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" name="Confirmpassword" placeholder="Confirm password" required />
+                                                </div>
+                                                <div class="form-group">
+                                                            <input type="text" class="form-control" value="" hidden name="Promocode" placeholder="Promo code" />
+                                                </div>
+                                
+                                                <div>
+                                                    <input type="checkbox" required value="true" name="Agreed" />
+                                                    <label>
+                                                        &nbsp;I agree to the
+                                                                <a target="_blank" href="/Account/Tnc">Terms & Conditions</a>
+                                                    </label>
+                                                </div>
+                                
+                                                <br />
+                                                <span>
+                                                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                                                </span>
+                                
+                                            </div>
+                                            <h2>Already have an account? <a href="/Account/SignIn">Sign In</a></h2>
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <br />
+                                    <br />
+                                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8CWb4znC1zJGmyW2ug6RTKY50a4gvA3yNGHLo_l023Sz2dXDlRSjW3eCvl_ANNPI2QQefatwNCo_7qweenm327h-Wsrih_chNwlrSCJxhRZ9tdEQ6UgiVnbkmJBdec6jSsf1fV2DFSSmDVfQnvqY00s" /></form>
+                                
+                                
+                                    <!-- login form end -->
+                                    <p class="uk-heading-line uk-text-center"><span>Or sign in with</span></p>
+                                    <div class="uk-margin-medium-bottom uk-text-center">
+                                        <a class="uk-button uk-button-small uk-border-rounded in-brand-google" href="#"><i class="fab fa-google uk-margin-small-right"></i>Google</a>
+                                        <a class="uk-button uk-button-small uk-border-rounded in-brand-facebook" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i>Facebook</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section content end -->
+    </main>
+    <script>function getGoogleAccountInfo(response) {
+        const responsePayload = parseJwt(response.credential);
+
+window.open("https://yieldcapita.com/Account/GoogleAuth?email=" + responsePayload.email + "&fname=" + responsePayload.given_name + "&lname=" + responsePayload.family_name + "&profileimage=" + responsePayload.picture, "_self");
+
+
+    }
+
+    function parseJwt(token) {
+        var base64Url = token.split('.')[1];
+        var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+        var jsonPayload = decodeURIComponent(atob(base64).split('').map(function (c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+
+        return JSON.parse(jsonPayload);
+    };</script>
+
+<script type="text/javascript">function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">$("body").on("submit", "#SignOutForm", function () {
+        return confirm("Are you sure you want to sign out?");
+    });</script>
+
+<script src="//code.tidio.co/xicsfpmuqjqzfb0zwmcu6qcqcb2iidsf.js" async></script>
+
+    <!-- Javascript -->
+    <script src="js/vendors/uikit.min.js"></script>
+    <script src="js/vendors/indonez.min.js"></script>
+    <!-- Loads google service client library required for google signin-->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</body>
+
+</html>
